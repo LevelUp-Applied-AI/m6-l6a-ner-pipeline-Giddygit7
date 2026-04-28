@@ -1,9 +1,24 @@
+# Virtual environment
+.venv*/
+venv/
+env/
+
+# Python cache
 __pycache__/
 *.pyc
-.env
-.venv/
-.pytest_cache/
+
+# spaCy models (can re-download)
+en_core_web_sm-*
+xx_ent_wiki_sm-*
+
+# Hugging Face cache (433 MB model)
 .cache/
-huggingface/
-*.png
-*.jpg
+~/.cache/huggingface/
+
+# IDE folders
+.vscode/
+.idea/
+
+# OS junk
+.DS_Store
+Thumbs.db
